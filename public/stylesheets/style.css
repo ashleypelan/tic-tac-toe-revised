@@ -1,0 +1,50 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#board {
+  display: inline-block;
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+}
+
+.tile {
+  width: 150px;
+  height: 150px;
+  vertical-align: top;
+  display: inline-block;
+  font-size: 5em;
+  line-height: 150px;
+}
+
+.right-border {
+  border-right: solid blue 5px;
+}
+
+.top-border {
+  border-top: solid blue 5px;
+}
+
+.play-options {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-right: 20px;
+}
+
+.selected {
+  background-color: blue;
+  color: white;
+}
+
+div:hover {
+  cursor: pointer;
+}
